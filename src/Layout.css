@@ -1,0 +1,18 @@
+@media screen and (max-width:1025px) {
+  #nav_items{
+    flex-direction: column;
+    padding: 10px;
+    display: none
+  }
+  #nav_full{
+    display: block;
+  }
+  #op_cl{
+    display: flex;
+  }
+  #nav_items li{
+    text-align: center;
+    margin: 10px;
+    color: black;
+  }
+}

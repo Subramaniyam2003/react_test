@@ -1,0 +1,25 @@
+
+@media screen and (max-width:1025px) {
+    #whole{
+        
+        text-align: center;
+    }
+  #pro_det{
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 25px;
+  }
+  #icon_per{
+    display: none;
+  }
+  #name{
+    font-size: 30px;
+    text-align: center;
+  }
+  #pro_rec{
+    margin-top: 15px;
+  }
+  }
