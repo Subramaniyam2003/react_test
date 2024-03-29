@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import github_logo from '/githubb_icon.png'
 export default function Footer() {
   return (
 
@@ -13,8 +13,8 @@ export default function Footer() {
       </ul>
       <h1 className="font-semibold text-3xl m-4 text-black">Get in Touch With</h1>
       <ul  className="flex justify-center items-center  flex-wrap">
-        <li><a href="https://github.com/subramaniyam2003/"><img className="w-7 h-7 m-2 animate-bounce" src={"./public/assets/githubb_icon.png"}/></a></li>
-        <li><a href="https://www.linkedin.com/in/subramaniyam-s-b29731277/"><img className="w-7 h-7 m-2 animate-bounce" src={"/assets/linkedinb_icon.png"}/></a></li>
+        <li><a href="https://github.com/subramaniyam2003/"><img src={github_logo} className="w-7 h-7 m-2 animate-bounce" alt="loading" /></a></li>
+        <li><a href="https://www.linkedin.com/in/subramaniyam-s-b29731277/"><img className="w-7 h-7 m-2 animate-bounce" src={"./src/assets/linkedinb_icon.png"}/></a></li>
     
       </ul>
     </div>
