@@ -1,12 +1,13 @@
+import profile from '/new (1) (1).png';
 export default function About() {
   return (
     <div>
         <h1 className="text-center md:text-5xl font-medium m-14 text-3xl animate-bounce">About Me</h1>
         <div className="flex items-center justify-evenly flex-wrap" >
         <span class="relative flex h-64 w-64">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-700"></span>
+        <span class="animate-ping absolute inline-flex h-48 w-44 m-10 rounded-full bg-lime-700"></span>
         <span class="relative inline-flex rounded-full h-64 w-64">        
-      <img className="rounded-full bg-lime-200 border-lime-500 border-8" style={{height:"17rem",width:"16rem"}} src={"./src/assets/new (1) (1).png"}></img></span>
+      <img className="rounded-full bg-lime-200 border-lime-500 border-8" style={{height:"17rem",width:"16rem"}} src={profile}></img></span>
         </span>
        
         <div className="flex flex-col " id="about_details">
