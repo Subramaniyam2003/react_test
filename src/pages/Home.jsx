@@ -2,7 +2,7 @@ import "./Home.css"
 export default function Home() {
   return (
     <div>   
-      <div className="flex items-center justify-around p-10 mt-8 flex-wrap" id="whole">
+      <div className="flex items-center justify-around p-10  flex-wrap" id="whole">
       
       <span class="relative flex h-64 w-64">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-700"></span>

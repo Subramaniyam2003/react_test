@@ -6,10 +6,10 @@ export default function Footer() {
     <div className="bg-lime-500 text-white text-center mt-10 p-4">
       <p className="font-semibold text-3xl m-4 text-black">Subramaniyam</p>
       <ul className="flex justify-evenly  p-4 flex-wrap text-2xl">
-        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/">Home</Link></li>
-        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/about">About Me</Link></li>
-        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/portfolio">Portfolio</Link></li>
-        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/contact">Contact Us</Link></li>
+        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/react_test/">Home</Link></li>
+        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/react_test/about">About Me</Link></li>
+        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/react_test/portfolio">Portfolio</Link></li>
+        <li className="bg-white p-3 m-2 rounded-md font-semibold text-black"><Link to="/react_test/contact">Contact Us</Link></li>
       </ul>
       <h1 className="font-semibold text-3xl m-4 text-black">Get in Touch With</h1>
       <ul  className="flex justify-center items-center  flex-wrap">
