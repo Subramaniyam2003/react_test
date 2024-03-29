@@ -13,6 +13,7 @@ export default function App() {
   // }, []);
   return (
     <div>
+      <Home/>
       <BrowserRouter>
       <Routes>
           <Route element={<Layout/>} >
